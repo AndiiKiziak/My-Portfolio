@@ -1,0 +1,81 @@
+
+html, body {
+	height: 100%;
+	text-indent: 1rem;
+}
+
+
+
+.navbar-brand {
+	position: absolute;
+	top: 0;
+	right: 1rem;
+	max-width: 5rem
+
+	
+}
+
+.icon {
+	max-height: 2rem;
+	border-radius: 50%;
+	margin: 0 1rem;
+}
+
+
+
+.zoom  {
+    
+    transition: transform .2s; /* Animation */
+   
+    }
+
+.zoom:hover {
+   
+      transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+
+/*Welcome-Home section*/
+
+#welcome-section {
+	
+	background: #222 url(img/tablet.jpg) center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#welcome-content {
+	color: white;
+    background: rgba(130, 130, 130, 0.7);
+    max-width: 50rem;
+}
+#welcome-image {
+	max-height: 10rem;
+	border-radius: 100%
+}
+
+#project-section {
+	margin-top: 1rem;
+}
+
+/*About section*/
+
+/*#section-content {
+	display: block;
+	align-items: center;*/
+}
+
+/*SketchUp section*/
+
+
+
+#footer-main {
+	
+	color: white !important;
+
+}
+
